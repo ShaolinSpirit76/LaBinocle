@@ -1,0 +1,256 @@
+#bandeau {
+  width: 100%;
+  height: auto;
+}
+
+#chatbinocle1, #chatbinocle2 {
+  border-radius: 10%;
+}
+
+.btnPay, .btnModals, .navbar {
+  background-color: rgba(11, 158, 147, 0.75);
+  border:none;
+}
+
+/* CSS du formulaire d'inscription */
+
+#register_form {
+  background: URL(images/fondForm.jpeg) no-repeat;
+  background-size: cover;
+  font-family: 'Alice', serif;
+}
+
+#register1 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cancel {
+  float: right;
+}
+
+#formInfo {
+  font-size: 0.75rem;
+}
+
+#passwordInfo {
+  font-size: 0.70rem;
+}
+
+#cbInfo {
+  font-size: 0.70rem;
+}
+
+#submitForm {
+  display: block;
+  margin: auto;
+}
+
+/* CSS du Footer */
+
+footer {
+  width: 100%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 36, 35);
+}
+
+
+.footer-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.footer-legis {
+font-size: 0.9rem;
+margin-bottom: 1rem;
+margin-top: 0;
+}
+
+
+
+hr.footerHR {
+  background-color: rgb(171, 63, 44);
+  width: 60px;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+
+/* ***** Links ******/
+
+a.footerText {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+/************* SEPARATOR *************/
+.separator {
+  background-color: #666;
+  height: .06em;
+  margin-bottom: .7em;
+}
+
+
+.map-responsive {
+overflow:hidden;
+padding-bottom:56.25%;  /*aspect ratio 16:9 ==> 9/16x100 = 56.25*/
+position:relative;
+height:0;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+/* CSS Modal card */
+
+#modalsBorder {
+border-style: solid;
+border-width: 1px;
+}
+
+.container {
+  padding: 2rem 0rem;
+}
+
+.table-image {
+
+  thead {
+    td, th {
+      border: 0;
+      color: #666;
+      font-size: 0.8rem;
+    }
+  }
+
+  td, th {
+    vertical-align: middle;
+    text-align: center;
+
+    &.qty {
+      max-width: 2rem;
+    }
+  }
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
+
+.modalPayBg {
+  background-image: url('images/fondPay.png');
+  background-size: auto;
+}
+
+ #cart, .totalShopping{
+   background-color: rgba(11, 158, 147, 0.75);
+ }
+
+ .btnCloseShop, .btnPayShop{
+   background-color: white;
+   border: none;
+   color: #00b0c8;
+ }
+
+  .btnCloseShop:hover, .btnPayShop:hover{
+   background-color: white;
+   border: none;
+   color: #0b9e93;
+ }
+
+.shopText{
+  text-align: left;
+  color: #0b9e93;
+  font-weight: bold;
+}
+
+#c1 {
+  background: URL(images/navImg/image4.png) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c2 {
+  background: URL(images/navImg/image1.jpg) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c3 {
+  background: URL(images/navImg/image2.jpg) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c4 {
+  background: URL(images/navImg/image2.jpg) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c5 {
+  background: URL(images/navImg/image2.jpg) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c6 {
+  background: URL(images/navImg/image2.jpg) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c7 {
+  background: URL(images/navImg/image3.jpg) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c8 {
+  background: URL(images/navImg/image3.png) no-repeat;
+  background-size: 100%;
+  background-position:center;
+    font-family: 'Alice', serif;
+}
+#c9 {
+  background: URL(images/navImg/image4.jpg) no-repeat;
+  background-size: 20% cover;
+  background-position:center;
+}
+
+.paypal {
+  width: 9rem;
+}
+
+/****** BLur Effect ******/
+/* h5 {
+  text-align:center;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  transition: all 0.5s;
+}
+h5:hover {
+  color:#444;
+  text-shadow:none;
+} */
+/****** /.BLur Effect ******/
+
+hr {
+  background-color: rgb(238, 83, 17);
+  width: 60px;
+  height: 1px;
+}
